@@ -1,6 +1,4 @@
--*- text -*-
 
-Solution to Assignment 3 (CS 464/564, Fall 2021), by Stefan Bruda
 
 The server is implemented in the files shfd.h (header for everything),
 fserv.cc (code for the file server), shserv.cc (code for the shell
