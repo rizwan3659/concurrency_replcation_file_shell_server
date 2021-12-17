@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CMD_FOPEN	/home/cdot/shfd/assign4.cc	29;"	d	file:
+CMD_FREAD	/home/cdot/shfd/assign4.cc	32;"	d	file:
+CMD_FSEEK	/home/cdot/shfd/assign4.cc	31;"	d	file:
+CMD_FWRITE	/home/cdot/shfd/assign4.cc	30;"	d	file:
+CXX	/home/cdot/shfd/Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	/home/cdot/shfd/Makefile	/^CXXFLAGS = -g -Wall -Werror -ansi -pedantic -w$/;"	m
+DEBUG_COMM	/home/cdot/shfd/shfd.h	/^const size_t DEBUG_COMM = 0;$/;"	v
+DEBUG_DELAY	/home/cdot/shfd/shfd.h	/^const size_t DEBUG_DELAY = 2;$/;"	v
+DEBUG_FILE	/home/cdot/shfd/shfd.h	/^const size_t DEBUG_FILE = 1;$/;"	v
+LDFLAGS	/home/cdot/shfd/Makefile	/^LDFLAGS = $(CXXFLAGS) -pthread$/;"	m
+LOG_FILE	/home/cdot/shfd/assign4.cc	12;"	d	file:
+MAX_LEN	/home/cdot/shfd/shfd.h	/^const size_t MAX_LEN = 1024;$/;"	v
+TYPE_REQ	/home/cdot/shfd/assign4.cc	34;"	d	file:
+TYPE_RES	/home/cdot/shfd/assign4.cc	35;"	d	file:
+__TCP_UTILS_H	/home/cdot/shfd/tcp-utils.h	9;"	d
+__TOKENIZE_H	/home/cdot/shfd/tokenize.h	6;"	d
+activate_thread	/home/cdot/shfd/assign4.cc	/^void activate_thread(t_pool *t_info)$/;"	f
+active_thread_count	/home/cdot/shfd/shfd.h	/^        unsigned int active_thread_count;$/;"	m	struct:g_stat
+add_to_repl_peer_list	/home/cdot/shfd/assign4.cc	/^void add_to_repl_peer_list(struct repl_peer *peer)$/;"	f
+add_to_t_pool	/home/cdot/shfd/assign4.cc	/^int add_to_t_pool(struct t_pool *tmp)$/;"	f
+alloc_t_info_node	/home/cdot/shfd/assign4.cc	/^struct t_pool* alloc_t_info_node()$/;"	f
+bytes	/home/cdot/shfd/assign4.cc	/^	char bytes[256];$/;"	m	struct:repl_req_fwrite	file:
+can_write	/home/cdot/shfd/shfd.h	/^    pthread_cond_t can_write;   \/\/ condition variable, name says it all$/;"	m	struct:rwexcl_t
+cleanup_thread_pool	/home/cdot/shfd/assign4.cc	/^int cleanup_thread_pool(struct t_pool *t_info)$/;"	f
+client_t	/home/cdot/shfd/shfd.h	/^struct client_t {$/;"	s
+clnt	/home/cdot/shfd/shfd.h	/^        struct client_t* clnt;$/;"	m	struct:t_pool	typeref:struct:t_pool::client_t
+command	/home/cdot/shfd/assign4.cc	/^	int command;$/;"	m	struct:repl_req_hdr	file:
+cond	/home/cdot/shfd/shfd.h	/^        pthread_cond_t cond;$/;"	m	struct:g_stat
+cond	/home/cdot/shfd/shfd.h	/^        pthread_cond_t cond;$/;"	m	struct:t_pool
+connectbyport	/home/cdot/shfd/tcp-utils.cc	/^int connectbyport(const char* host, const char* port) {$/;"	f
+connectbyportint	/home/cdot/shfd/tcp-utils.cc	/^int connectbyportint(const char* host, unsigned short port) {$/;"	f
+connectbyservice	/home/cdot/shfd/tcp-utils.cc	/^int connectbyservice(const char* host, const char* service){$/;"	f
+controlsocket	/home/cdot/shfd/tcp-utils.cc	/^int controlsocket(unsigned short port, int backlog) {$/;"	f
+create_t_pool	/home/cdot/shfd/assign4.cc	/^int create_t_pool()$/;"	f
+debugs	/home/cdot/shfd/misc.cc	/^bool debugs[3] = {false, false, false};$/;"	v
+del_from_t_pool	/home/cdot/shfd/assign4.cc	/^int del_from_t_pool(struct t_pool *thread)$/;"	f
+dump_in_assign_logfile	/home/cdot/shfd/assign4.cc	/^void dump_in_assign_logfile(char *msg)$/;"	f
+dynamic_reconfiguration	/home/cdot/shfd/assign4.cc	/^void dynamic_reconfiguration(int sig)$/;"	f
+err_bind	/home/cdot/shfd/tcp-utils.h	/^const int err_bind    = -5;$/;"	v
+err_connect	/home/cdot/shfd/tcp-utils.h	/^const int err_connect = -3;$/;"	v
+err_exec	/home/cdot/shfd/shfd.h	/^const int err_exec = 0xFF;$/;"	v
+err_host	/home/cdot/shfd/tcp-utils.h	/^const int err_host    = -1;$/;"	v
+err_listen	/home/cdot/shfd/tcp-utils.h	/^const int err_listen  = -6;$/;"	v
+err_nofile	/home/cdot/shfd/shfd.h	/^const int err_nofile = -2;$/;"	v
+err_proto	/home/cdot/shfd/tcp-utils.h	/^const int err_proto   = -4;$/;"	v
+err_sock	/home/cdot/shfd/tcp-utils.h	/^const int err_sock    = -2;$/;"	v
+falive	/home/cdot/shfd/misc.cc	/^bool falive;$/;"	v
+fd	/home/cdot/shfd/shfd.h	/^    int fd;                     \/\/ the file descriptor (also used as$/;"	m	struct:rwexcl_t
+file_client	/home/cdot/shfd/fserv.cc	/^void* file_client (client_t* clnt) {$/;"	f
+file_client_fopen	/home/cdot/shfd/assign4.cc	/^void file_client_fopen(struct repl_req_fopen *req)$/;"	f
+file_client_fread	/home/cdot/shfd/assign4.cc	/^int file_client_fread(struct repl_req_fread *req)$/;"	f
+file_client_fseek	/home/cdot/shfd/assign4.cc	/^void file_client_fseek(struct repl_req_fseek *req)$/;"	f
+file_client_fwrite	/home/cdot/shfd/assign4.cc	/^void file_client_fwrite(struct repl_req_fwrite *req)$/;"	f
+file_exit	/home/cdot/shfd/fserv.cc	/^int file_exit (int fd) {$/;"	f
+file_init	/home/cdot/shfd/fserv.cc	/^int file_init (const char* filename) {$/;"	f
+file_server	/home/cdot/shfd/misc.cc	/^void* file_server (int msock) {$/;"	f
+filename	/home/cdot/shfd/assign4.cc	/^	char filename[256];$/;"	m	struct:repl_req_fopen	file:
+filename	/home/cdot/shfd/assign4.cc	/^	char filename[256];$/;"	m	struct:repl_req_fseek	file:
+filename	/home/cdot/shfd/assign4.cc	/^	char filename[256];$/;"	m	struct:repl_req_fwrite	file:
+filename	/home/cdot/shfd/assign4.cc	/^        char filename[256];$/;"	m	struct:repl_req_fread	file:
+flag	/home/cdot/shfd/shfd.h	/^        bool flag; \/* active if 1 else 0 *\/$/;"	m	struct:t_pool
+flocks	/home/cdot/shfd/fserv.cc	/^rwexcl_t** flocks;$/;"	v
+flocks_size	/home/cdot/shfd/fserv.cc	/^size_t flocks_size;$/;"	v
+g_count	/home/cdot/shfd/assign4.cc	/^unsigned int g_count;$/;"	v
+g_stat	/home/cdot/shfd/assign4.cc	/^struct g_stat g_stat;$/;"	v	typeref:struct:g_stat
+g_stat	/home/cdot/shfd/shfd.h	/^struct g_stat {$/;"	s
+g_txn_id	/home/cdot/shfd/assign4.cc	/^unsigned int g_txn_id;$/;"	v
+get_filename_from_fd	/home/cdot/shfd/assign4.cc	/^char * get_filename_from_fd(int idx)$/;"	f
+get_idle_thread_from_t_pool	/home/cdot/shfd/assign4.cc	/^struct t_pool* get_idle_thread_from_t_pool()$/;"	f
+get_timestamp	/home/cdot/shfd/assign4.cc	/^void get_timestamp(char *ts)$/;"	f
+graceful_shutdown	/home/cdot/shfd/assign4.cc	/^void graceful_shutdown(int sig)$/;"	f
+hdr	/home/cdot/shfd/assign4.cc	/^	struct repl_req_hdr hdr;$/;"	m	struct:repl_req_fopen	typeref:struct:repl_req_fopen::repl_req_hdr	file:
+hdr	/home/cdot/shfd/assign4.cc	/^	struct repl_req_hdr hdr;$/;"	m	struct:repl_req_fseek	typeref:struct:repl_req_fseek::repl_req_hdr	file:
+hdr	/home/cdot/shfd/assign4.cc	/^	struct repl_req_hdr hdr;$/;"	m	struct:repl_req_fwrite	typeref:struct:repl_req_fwrite::repl_req_hdr	file:
+hdr	/home/cdot/shfd/assign4.cc	/^        struct repl_req_hdr hdr;$/;"	m	struct:repl_req_fread	typeref:struct:repl_req_fread::repl_req_hdr	file:
+hdr	/home/cdot/shfd/assign4.cc	/^        struct repl_req_hdr hdr;$/;"	m	struct:repl_resp_fread	typeref:struct:repl_resp_fread::repl_req_hdr	file:
+id	/home/cdot/shfd/shfd.h	/^	unsigned int id;$/;"	m	struct:t_pool
+inode	/home/cdot/shfd/shfd.h	/^    ino_t inode;                \/\/ inode (used for identifying identical files)$/;"	m	struct:rwexcl_t
+ip	/home/cdot/shfd/shfd.h	/^    char ip[16];$/;"	m	struct:repl_peer
+ip	/home/cdot/shfd/shfd.h	/^    char ip[20];   \/\/ the (dotted) IP address$/;"	m	struct:client_t
+ip_to_dotted	/home/cdot/shfd/misc.cc	/^void ip_to_dotted(unsigned int ip, char* buffer) {$/;"	f
+is_repl_req	/home/cdot/shfd/shfd.h	/^    int is_repl_req;$/;"	m	struct:client_t
+length	/home/cdot/shfd/assign4.cc	/^        int length;$/;"	m	struct:repl_req_fread	file:
+lock	/home/cdot/shfd/shfd.h	/^        pthread_mutex_t lock;$/;"	m	struct:g_stat
+lock	/home/cdot/shfd/shfd.h	/^        pthread_mutex_t lock;$/;"	m	struct:t_pool
+log_print	/home/cdot/shfd/assign4.cc	/^void log_print(char *msg)$/;"	f
+log_print_init	/home/cdot/shfd/assign4.cc	/^void log_print_init()$/;"	f
+logfile	/home/cdot/shfd/misc.cc	/^const char* logfile = "shfd.log";$/;"	v
+logger	/home/cdot/shfd/misc.cc	/^void logger(const char * msg) {$/;"	f
+logger_mutex	/home/cdot/shfd/misc.cc	/^pthread_mutex_t logger_mutex;$/;"	v
+logging_lock	/home/cdot/shfd/assign4.cc	/^pthread_mutex_t logging_lock; \/\/mutex for looging file$/;"	v
+main	/home/cdot/shfd/client.cc	/^int main (int argc, char** argv) {$/;"	f
+main	/home/cdot/shfd/misc.cc	/^int main (int argc, char** argv, char** envp) {$/;"	f
+mutex	/home/cdot/shfd/shfd.h	/^    pthread_mutex_t mutex;      \/\/ mutex for the whole structure$/;"	m	struct:rwexcl_t
+name	/home/cdot/shfd/shfd.h	/^    char* name;                 \/\/ the (absolute) name of the file (for debugging purposes)$/;"	m	struct:rwexcl_t
+next	/home/cdot/shfd/shfd.h	/^        struct t_pool *next;$/;"	m	struct:t_pool	typeref:struct:t_pool::t_pool
+next	/home/cdot/shfd/shfd.h	/^    struct repl_peer *next;$/;"	m	struct:repl_peer	typeref:struct:repl_peer::repl_peer
+next_arg	/home/cdot/shfd/misc.cc	/^int next_arg(const char* line, char delim) {$/;"	f
+num_thread_to_del	/home/cdot/shfd/shfd.h	/^	int num_thread_to_del;$/;"	m	struct:g_stat
+offset	/home/cdot/shfd/assign4.cc	/^	int offset;$/;"	m	struct:repl_req_fseek	file:
+owners	/home/cdot/shfd/shfd.h	/^    unsigned int owners;        \/\/ how many clients have the file opened$/;"	m	struct:rwexcl_t
+passivesockaux	/home/cdot/shfd/tcp-utils.cc	/^int passivesockaux(unsigned short port, int backlog, unsigned long int ip_addr) {$/;"	f
+passivesocket	/home/cdot/shfd/tcp-utils.cc	/^int passivesocket(unsigned short port, int backlog) {$/;"	f
+passivesocket_lcl	/home/cdot/shfd/tcp-utils.cc	/^int passivesocket_lcl(unsigned short port, int backlog) {$/;"	f
+passivesocketserv	/home/cdot/shfd/tcp-utils.cc	/^int passivesocketserv(const char* service, int backlog) {$/;"	f
+passivesocketstr	/home/cdot/shfd/tcp-utils.cc	/^int passivesocketstr(const char* port, int backlog) {$/;"	f
+peer_connect	/home/cdot/shfd/assign4.cc	/^void* peer_connect(void* data)$/;"	f
+pidfile	/home/cdot/shfd/misc.cc	/^const char* pidfile = "shfd.pid";$/;"	v
+port	/home/cdot/shfd/shfd.h	/^    int port;$/;"	m	struct:repl_peer
+read_excl	/home/cdot/shfd/fserv.cc	/^int read_excl(int fd, char* stuff, size_t stuff_length) {$/;"	f
+readline	/home/cdot/shfd/tcp-utils.cc	/^int readline(const int fd, char* buf, const size_t max) {$/;"	f
+reads	/home/cdot/shfd/shfd.h	/^    unsigned int reads;         \/\/ number of simultaneous reads (a write$/;"	m	struct:rwexcl_t
+recv_nodata	/home/cdot/shfd/tcp-utils.h	/^const int recv_nodata = -2;$/;"	v
+recv_nonblock	/home/cdot/shfd/tcp-utils.cc	/^int recv_nonblock (int sd, char* buf, size_t max, int timeout) {$/;"	f
+repl_peer	/home/cdot/shfd/shfd.h	/^struct repl_peer {$/;"	s
+repl_peers_list_first	/home/cdot/shfd/assign4.cc	/^struct repl_peer *repl_peers_list_first;$/;"	v	typeref:struct:repl_peer
+repl_peers_list_last	/home/cdot/shfd/assign4.cc	/^struct repl_peer *repl_peers_list_last;$/;"	v	typeref:struct:repl_peer
+repl_port	/home/cdot/shfd/assign4.cc	/^int repl_port; \/\/from command line$/;"	v
+repl_req_fopen	/home/cdot/shfd/assign4.cc	/^struct repl_req_fopen {$/;"	s	file:
+repl_req_fread	/home/cdot/shfd/assign4.cc	/^struct repl_req_fread {$/;"	s	file:
+repl_req_fseek	/home/cdot/shfd/assign4.cc	/^struct repl_req_fseek {$/;"	s	file:
+repl_req_fwrite	/home/cdot/shfd/assign4.cc	/^struct repl_req_fwrite {$/;"	s	file:
+repl_req_hdr	/home/cdot/shfd/assign4.cc	/^struct repl_req_hdr {$/;"	s	file:
+repl_resp_fread	/home/cdot/shfd/assign4.cc	/^struct repl_resp_fread {$/;"	s	file:
+replication_server	/home/cdot/shfd/assign4.cc	/^void* replication_server(void* client)$/;"	f
+reply	/home/cdot/shfd/shfd.h	/^    int reply;$/;"	m	struct:repl_peer
+result	/home/cdot/shfd/assign4.cc	/^        int result;$/;"	m	struct:repl_resp_fread	file:
+run_it	/home/cdot/shfd/shserv.cc	/^void run_it (int sd, const char* command, char* const argv[], const char* out_file) {$/;"	f
+rwexcl_t	/home/cdot/shfd/shfd.h	/^struct rwexcl_t {    $/;"	s
+sd	/home/cdot/shfd/shfd.h	/^    int sd;    \/\/ the communication socket$/;"	m	struct:client_t
+sd	/home/cdot/shfd/shfd.h	/^    int sd;$/;"	m	struct:repl_peer
+seek_excl	/home/cdot/shfd/fserv.cc	/^int seek_excl(int fd, off_t offset) {$/;"	f
+send_repl_req	/home/cdot/shfd/assign4.cc	/^void send_repl_req(int cmd, char *filename, int offlen, char *bytes)$/;"	f
+set_defaults	/home/cdot/shfd/assign4.cc	/^void set_defaults()$/;"	f
+set_repl_port	/home/cdot/shfd/assign4.cc	/^void set_repl_port(int port)$/;"	f
+set_t_incr	/home/cdot/shfd/assign4.cc	/^void set_t_incr(int value)$/;"	f
+set_t_max	/home/cdot/shfd/assign4.cc	/^void set_t_max(int value)$/;"	f
+shell_client	/home/cdot/shfd/shserv.cc	/^void* shell_client (client_t* clnt) {$/;"	f
+shell_server	/home/cdot/shfd/misc.cc	/^void* shell_server (int msock) {$/;"	f
+start_repl_server	/home/cdot/shfd/assign4.cc	/^void* start_repl_server(long int replsock)$/;"	f
+stop	/home/cdot/shfd/shfd.h	/^        bool stop;$/;"	m	struct:t_pool
+stop	/home/cdot/shfd/shfd.h	/^    int stop;$/;"	m	struct:client_t
+stop	/home/cdot/shfd/shfd.h	/^    int stop;$/;"	m	struct:repl_peer
+str_tokenize	/home/cdot/shfd/tokenize.cc	/^size_t str_tokenize(char* str, char** tokens, const size_t n) {$/;"	f
+system_cleanup	/home/cdot/shfd/assign4.cc	/^void system_cleanup()$/;"	f
+t_incr	/home/cdot/shfd/assign4.cc	/^int t_incr; \/\/from command line$/;"	v
+t_max	/home/cdot/shfd/assign4.cc	/^int t_max; \/\/from command line$/;"	v
+t_pool	/home/cdot/shfd/shfd.h	/^struct t_pool {$/;"	s
+t_pool_first	/home/cdot/shfd/shfd.h	/^        struct t_pool *t_pool_first;$/;"	m	struct:g_stat	typeref:struct:g_stat::t_pool
+t_pool_last	/home/cdot/shfd/shfd.h	/^        struct t_pool *t_pool_last;$/;"	m	struct:g_stat	typeref:struct:g_stat::t_pool
+total_thread_count	/home/cdot/shfd/shfd.h	/^        unsigned int total_thread_count;$/;"	m	struct:g_stat
+ts	/home/cdot/shfd/assign4.cc	/^	char ts[32];$/;"	m	struct:repl_req_hdr	file:
+tt	/home/cdot/shfd/shfd.h	/^        pthread_t tt;$/;"	m	struct:t_pool
+txn_id	/home/cdot/shfd/assign4.cc	/^	int txn_id;$/;"	m	struct:repl_req_hdr	file:
+type	/home/cdot/shfd/assign4.cc	/^	int type;$/;"	m	struct:repl_req_hdr	file:
+verbose	/home/cdot/shfd/assign4.cc	11;"	d	file:
+work_function	/home/cdot/shfd/assign4.cc	/^void* work_function(struct t_pool *t_info)$/;"	f
+write_excl	/home/cdot/shfd/fserv.cc	/^int write_excl(int fd, const char* stuff, size_t stuff_length) {$/;"	f

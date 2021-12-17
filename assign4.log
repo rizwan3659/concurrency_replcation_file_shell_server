@@ -1,0 +1,43 @@
+******************************************************************************************
+*                      Started File Server and Sh server                                 *
+*                                  Welcome                                               *
+******************************************************************************************
+assign4.cc: Creating 1 thread
+assign4.cc: Added 1 Threads to Pool(Total: 1): 
+assign4.cc: Thread 139980567475968 (1)
+assign4.cc: Checking Node: 139980567475968 (1): 0
+assign4.cc: Return Node: 139980567475968
+assign4.cc: Thread 139980567475968 (1) is Active now
+assign4.cc: Checking Node: 139980567475968 (1): 1
+assign4.cc: No more threads
+assign4.cc: Creating 1 thread
+assign4.cc: Added 1 Threads to Pool(Total: 2): 
+assign4.cc: Checking Node: 139980567475968 (1): 1
+assign4.cc: Checking Node: 139980559083264 (2): 0
+assign4.cc: Return Node: 139980559083264
+assign4.cc: Thread 139980559083264 (2)
+assign4.cc: Thread 139980559083264 (2) is Active now
+assign4.cc: Checking Node: 139980567475968 (1): 1
+assign4.cc: Checking Node: 139980559083264 (2): 1
+assign4.cc: No more threads
+assign4.cc: Creating 1 thread
+assign4.cc: Added 1 Threads to Pool(Total: 3): 
+assign4.cc: Checking Node: 139980567475968 (1): 1
+assign4.cc: Checking Node: 139980559083264 (2): 1
+assign4.cc: Checking Node: 139980550690560 (3): 0
+assign4.cc: Return Node: 139980550690560
+assign4.cc: Thread 139980550690560 (3)
+assign4.cc: Thread 139980550690560 (3) is Active now
+assign4.cc: Checking Node: 139980567475968 (1): 1
+assign4.cc: Checking Node: 139980559083264 (2): 1
+assign4.cc: Checking Node: 139980550690560 (3): 1
+assign4.cc: No more threads
+assign4.cc: Creating 1 thread
+assign4.cc: Added 1 Threads to Pool(Total: 4): 
+assign4.cc: Checking Node: 139980567475968 (1): 1
+assign4.cc: Checking Node: 139980559083264 (2): 1
+assign4.cc: Checking Node: 139980550690560 (3): 1
+assign4.cc: Checking Node: 139980542297856 (4): 0
+assign4.cc: Return Node: 139980542297856
+assign4.cc: Thread 139980542297856 (4)
+assign4.cc: Thread 139980542297856 (4) is Active now
